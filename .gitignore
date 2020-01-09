@@ -11,12 +11,7 @@
 !.gitignore
 !readme.md
 
-!/algorithms/**/*.c
-!/algorithms/**/*.cpp
-!/algorithms/**/*.hs
-!/algorithms/**/*.java
-!/algorithms/**/*.js
-!/algorithms/**/*.m
-!/algorithms/**/*.rs
-!/algorithms/**/*.swift
-!/algorithms/**/*.ts
+!/algorithms/000_simple_array_sum/readme.txt
+!/algorithms/000_simple_array_sum/java/*.java
+!/algorithms/001_a_very_big_sum/readme.txt
+!/algorithms/001_a_very_big_sum/java/*.java
