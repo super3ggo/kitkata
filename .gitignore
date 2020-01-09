@@ -1,0 +1,22 @@
+# Filename: gitignore
+# Note:     A gitignore for this repository (duh).
+
+# Ignore everything!
+*
+
+# But descend into directories.
+!*/
+
+# And mind the whitelist!
+!.gitignore
+!readme.md
+
+!/algorithms/**/*.c
+!/algorithms/**/*.cpp
+!/algorithms/**/*.hs
+!/algorithms/**/*.java
+!/algorithms/**/*.js
+!/algorithms/**/*.m
+!/algorithms/**/*.rs
+!/algorithms/**/*.swift
+!/algorithms/**/*.ts
