@@ -11,7 +11,5 @@
 !.gitignore
 !readme.md
 
-!/algorithms/000_simple_array_sum/readme.txt
-!/algorithms/000_simple_array_sum/java/*.java
-!/algorithms/001_a_very_big_sum/readme.txt
-!/algorithms/001_a_very_big_sum/java/*.java
+!/algorithms/warmup/000_simple_array_sum/java/*.java
+!/algorithms/warmup/001_a_very_big_sum/java/*.java
