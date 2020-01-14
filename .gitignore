@@ -13,3 +13,4 @@
 
 !/algorithms/warmup/000_simple_array_sum/java/*.java
 !/algorithms/warmup/001_a_very_big_sum/java/*.java
+!/algorithms/warmup/002_diagonal_difference/java/*.java
