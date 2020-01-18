@@ -11,6 +11,9 @@
 !.gitignore
 !readme.md
 
+# Algorithms
+
+# Warmup
 !/algorithms/000_warmup/000_simple_array_sum/java/*.java
 !/algorithms/000_warmup/001_compare_the_triplets/java/*.java
 !/algorithms/000_warmup/002_a_very_big_sum/java/*.java
@@ -20,3 +23,6 @@
 !/algorithms/000_warmup/006_mini_max_sum/java/*.java
 !/algorithms/000_warmup/007_birthday_cake_candles/java/*.java
 !/algorithms/000_warmup/008_time_conversion/java/*.java
+
+# Implementation
+!/algorithms/001_implementation/000_grading_students/java/*.java
