@@ -25,4 +25,4 @@
 !/algorithms/000_warmup/008_time_conversion/java/*.java
 
 # Implementation
-!/algorithms/001_implementation/000_grading_students/java/*.java
+!/algorithms/001_implementation/easy/000_grading_students/java/*.java
