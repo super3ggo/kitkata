@@ -29,3 +29,4 @@
 !/algorithms/001_implementation/easy/001_apple_and_orange/java/*.java
 !/algorithms/001_implementation/easy/002_kangaroo/java/*.java
 !/algorithms/001_implementation/easy/002_kangaroo/cpp/*.cpp
+!/algorithms/001_implementation/easy/003_between_two_sets/cpp/*.cpp
