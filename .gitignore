@@ -14,19 +14,19 @@
 # Algorithms
 
 # Warmup
-!/algorithms/warmup/simple_array_sum/java/*.java
-!/algorithms/warmup/compare_the_triplets/java/*.java
 !/algorithms/warmup/a_very_big_sum/java/*.java
-!/algorithms/warmup/diagonal_difference/java/*.java
-!/algorithms/warmup/plus_minus/java/*.java
-!/algorithms/warmup/staircase/java/*.java
-!/algorithms/warmup/mini_max_sum/java/*.java
 !/algorithms/warmup/birthday_cake_candles/java/*.java
+!/algorithms/warmup/compare_the_triplets/java/*.java
+!/algorithms/warmup/diagonal_difference/java/*.java
+!/algorithms/warmup/mini_max_sum/java/*.java
+!/algorithms/warmup/plus_minus/java/*.java
+!/algorithms/warmup/simple_array_sum/java/*.java
+!/algorithms/warmup/staircase/java/*.java
 !/algorithms/warmup/time_conversion/java/*.java
 
 # Implementation
-!/algorithms/implementation/easy/grading_students/java/*.java
 !/algorithms/implementation/easy/apple_and_orange/java/*.java
-!/algorithms/implementation/easy/kangaroo/java/*.java
-!/algorithms/implementation/easy/kangaroo/cpp/*.cpp
 !/algorithms/implementation/easy/between_two_sets/cpp/*.cpp
+!/algorithms/implementation/easy/grading_students/java/*.java
+!/algorithms/implementation/easy/kangaroo/cpp/*.cpp
+!/algorithms/implementation/easy/kangaroo/java/*.java
