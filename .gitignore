@@ -14,19 +14,19 @@
 # Algorithms
 
 # Warmup
-!/algorithms/000_warmup/000_simple_array_sum/java/*.java
-!/algorithms/000_warmup/001_compare_the_triplets/java/*.java
-!/algorithms/000_warmup/002_a_very_big_sum/java/*.java
-!/algorithms/000_warmup/003_diagonal_difference/java/*.java
-!/algorithms/000_warmup/004_plus_minus/java/*.java
-!/algorithms/000_warmup/005_staircase/java/*.java
-!/algorithms/000_warmup/006_mini_max_sum/java/*.java
-!/algorithms/000_warmup/007_birthday_cake_candles/java/*.java
-!/algorithms/000_warmup/008_time_conversion/java/*.java
+!/algorithms/warmup/simple_array_sum/java/*.java
+!/algorithms/warmup/compare_the_triplets/java/*.java
+!/algorithms/warmup/a_very_big_sum/java/*.java
+!/algorithms/warmup/diagonal_difference/java/*.java
+!/algorithms/warmup/plus_minus/java/*.java
+!/algorithms/warmup/staircase/java/*.java
+!/algorithms/warmup/mini_max_sum/java/*.java
+!/algorithms/warmup/birthday_cake_candles/java/*.java
+!/algorithms/warmup/time_conversion/java/*.java
 
 # Implementation
-!/algorithms/001_implementation/easy/000_grading_students/java/*.java
-!/algorithms/001_implementation/easy/001_apple_and_orange/java/*.java
-!/algorithms/001_implementation/easy/002_kangaroo/java/*.java
-!/algorithms/001_implementation/easy/002_kangaroo/cpp/*.cpp
-!/algorithms/001_implementation/easy/003_between_two_sets/cpp/*.cpp
+!/algorithms/implementation/easy/grading_students/java/*.java
+!/algorithms/implementation/easy/apple_and_orange/java/*.java
+!/algorithms/implementation/easy/kangaroo/java/*.java
+!/algorithms/implementation/easy/kangaroo/cpp/*.cpp
+!/algorithms/implementation/easy/between_two_sets/cpp/*.cpp
