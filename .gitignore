@@ -25,6 +25,7 @@
 !/algorithms/warmup/time_conversion/java/*.java
 
 # Implementation
+!/algorithms/implementation/easy/append_and_delete/cpp/*.cpp
 !/algorithms/implementation/easy/apple_and_orange/java/*.java
 !/algorithms/implementation/easy/between_two_sets/cpp/*.cpp
 !/algorithms/implementation/easy/grading_students/java/*.java
