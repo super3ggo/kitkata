@@ -8,6 +8,15 @@ vector<string> split_string(string);
 // Solution
 //
 
+// Notes:
+//        This is not a hard problem per se, but you watch yourself when
+//        counting.
+//
+//        With the approach below, we have the count variable represent
+//        the amount of candy we have left to give, therefore we must
+//        subtract one because we always give a piece of candy to each
+//        prisoner, i.e. at each index.
+
 int saveThePrisoner(int n, int m, int s) {
     int count    = m % n == 0 ? n - 1 : (m % n) - 1;
     int prisoner = s;
@@ -16,8 +25,8 @@ int saveThePrisoner(int n, int m, int s) {
 
     if (prisoner >= n) {
         prisoner-=n;
-        if (prisoner == 0) {
-            prisoner = n;
+        if (prisoner == 0) { // When we've come full circle,
+            prisoner = n;    // we have to reset to the next prisoner in line.
         }
     }
 
