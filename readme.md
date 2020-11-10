@@ -1,5 +1,3 @@
-# New Adventures in HackerRank
-
-## About
-Fooling around with algorithms, data structures, _etc_ on the website
-HackerRank.
+# A Kit for Every Kata
+Fooling around with algorithms, data structures, puzzles, _etc_ in various
+languages. For reference and posterity.
