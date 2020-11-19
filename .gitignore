@@ -13,4 +13,6 @@
 
 # Filetypes go under language-specific directories!
 !/kata/**/*/cpp/*.cpp
+!/kata/**/*/haskell/*.hs
 !/kata/**/*/java/*.java
+!/kata/H99/*.hs
