@@ -1,9 +1,7 @@
 -- Filename: OneToTen.hs
 -- Note:     Solutions to H99 problems 1 through 10.
 
-module H99.OneToTen
-  ( myEncode
-  ) where
+module H99.OneToTen where
 
 -- 1. Find the last element of a list.
 getLast :: [a] -> a
@@ -56,11 +54,11 @@ compress (x:xs) = x : (compress $ dropWhile (== x) xs)
 
 -- The following is a solution they give, but I don't understand the pattern
 -- matching going on here!
--- compress :: Eq a => [a] -> [a]
--- compress (x:xs@(y:_))
---     | x == y    = compress xs
---     | otherwise = x : compress xs
--- compress xs = xs
+compress' :: Eq a => [a] -> [a]
+compress' (x:xs@(y:_))
+  | x == y    = compress xs
+  | otherwise = x : compress xs
+compress' xs = xs
 
 -- 9. Pack consecutive duplicates of list elements into sublists. If a list
 --    contains repeated elements they should be placed in separate sublists.

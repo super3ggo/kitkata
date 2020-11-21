@@ -1,11 +1,9 @@
 -- Filename: ElevenToTwenty.hs
 -- Note:     Solutions to H99 problems 11 through 20.
 
-module H99.ElevenToTwenty
-  ( myEncode'
-  ) where
+module H99.ElevenToTwenty where
 
--- Note, some of these problems require loading the solutions from 1-10.hs.
+-- Note, some of these problems reuse previous solutions.
 import qualified H99.OneToTen as OTT
 
 -- 11. Modified run-length encoding.
