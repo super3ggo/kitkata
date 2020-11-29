@@ -61,7 +61,7 @@ void Stack::push(int entry) {
 void Stack::show() {
   std::cout << "--------------------" << std::endl;
   for(int i = 0; i < this->stack.size(); i++) {
-    std::cout << "item: " << i << " elem: " << this->stack.at(i) << std::endl;
+    std::cout << "item: " << i << " elem: " << this->stack[i] << std::endl;
   }
   std::cout << "--------------------" << std::endl;
 }

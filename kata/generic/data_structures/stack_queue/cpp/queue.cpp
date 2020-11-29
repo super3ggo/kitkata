@@ -53,7 +53,7 @@ void Queue::remove() {
   if (!isEmpty()) {
     std::vector<int> tmp;
     for (int i=1; i < this->queue.size(); i++) {
-      tmp.push_back(this->queue.at(i));
+      tmp.push_back(this->queue[i]);
     }
     this->queue = tmp;
     this->currentSize -= 1;
@@ -65,7 +65,7 @@ void Queue::remove() {
 void Queue::show() {
   std::cout << "--------------------" << std::endl;
   for (int i=0; i < this->queue.size(); i++) {
-    std::cout << "item: " << i << " elem: " << this->queue.at(i) << std::endl;
+    std::cout << "item: " << i << " elem: " << this->queue[i] << std::endl;
   }
   std::cout << "--------------------" << std::endl;
 }
