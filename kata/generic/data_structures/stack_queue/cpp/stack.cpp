@@ -1,22 +1,9 @@
-#include <iostream>
-#include <vector>
+#include "stack.hpp"
 
-class Stack {
-  public:
-    Stack(int limit);
-    /* ~Stack(); // not sure if you need this */
-
-    bool isEmpty();
-    bool isFull();
-    int peek();
-    void pop();
-    void push(int entry);
-    void show();
-  private:
-    int limit;
-    int currentSize;
-    std::vector<int> stack;
-};
+Stack::Stack() {
+  this->limit       = 0;
+  this->currentSize = 0;
+}
 
 Stack::Stack(int limit) {
   this->limit       = limit;
@@ -38,6 +25,12 @@ int Stack::peek() {
   } else {
     return -1;
   }
+}
+
+void Stack::init(int limit) {
+  this->limit       = limit;
+  this->currentSize = 0;
+  this->stack.reserve(this->limit);
 }
 
 void Stack::pop() {

@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "stack.cpp"
-#include "queue.cpp"
+#include "stack.hpp"
+#include "queue.hpp"
 
 int main() {
   // Stack tests

@@ -1,22 +1,4 @@
-#include <iostream>
-#include <vector>
-
-class Queue {
-  public:
-    Queue(int limit);
-    // ~Queue(); not sure if you need this
-
-    bool isEmpty();
-    bool isFull();
-    int peek();
-    void add(int entry);
-    void remove();
-    void show();
-  private:
-    int currentSize;
-    int limit;
-    std::vector<int> queue;
-};
+#include "queue.hpp"
 
 Queue::Queue(int limit) {
   this->limit = limit;
@@ -29,7 +11,7 @@ bool Queue::isEmpty() {
 }
 
 bool Queue::isFull() {
-  return this->currentSize == limit;
+  return this->currentSize == this->limit;
 }
 
 int Queue::peek() {
