@@ -54,7 +54,7 @@ myCombo 0 _      = [[]]
 myCombo _ []     = []
 myCombo n (x:xs) = (map (x:) (myCombo (n-1) xs)) ++ (myCombo n xs)
 
--- 27. Group the elements of a set into disjoint subsets.
+-- 27. Group the elements of a set into disjoint subsets. (skipped)
 --
 --     a) In how many ways can a group of 9 people work in 3 disjoint subgroups
 --     of 2, 3 and 4 persons? Write a function that generates all the
@@ -63,7 +63,7 @@ myCombo n (x:xs) = (map (x:) (myCombo (n-1) xs)) ++ (myCombo n xs)
 --     b) Generalize the above predicate in a way that we can specify a list of
 --     group sizes and the predicate will return a list of groups.
 
--- 28. Sorting a list of lists according to length of sublists
+-- 28. Sorting a list of lists according to length of sublists. (skipped)
 --
 --     a) We suppose that a list contains elements that are lists themselves.
 --     The objective is to sort the elements of this list according to their
