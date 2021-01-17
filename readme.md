@@ -1,3 +1,3 @@
 # A Kit for Every Kata (:chocolate_bar:&#24418;)
-Fooling around with algorithms, data structures, puzzles, _etc_ in various
-languages. For reference and posterity.
+Algorithms, data structures, puzzles, _etc._ In various PLs. For reference and
+posterity.
