@@ -12,8 +12,7 @@
 !readme.md
 
 # Filetypes go under language-specific directories!
-!/kata/**/*/cpp/*.cpp
-!/kata/**/*/cpp/*.hpp
-!/kata/**/*/haskell/*.hs
-!/kata/**/*/java/*.java
-!/kata/H99/*.hs
+!/Kata/**/*/cpp/*.cpp
+!/Kata/**/*/cpp/*.hpp
+!/Kata/**/*/haskell/*.hs
+!/Kata/**/*/java/*.java
