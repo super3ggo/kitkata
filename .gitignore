@@ -11,8 +11,10 @@
 !.gitignore
 !readme.md
 
-# Filetypes go under language-specific directories!
+!/config/tsconfig.json
+
 !/Kata/**/*/cpp/*.cpp
 !/Kata/**/*/cpp/*.hpp
 !/Kata/**/*/haskell/*.hs
 !/Kata/**/*/java/*.java
+!/Kata/**/*/ts/*.ts
