@@ -28,7 +28,7 @@ function findUniqueElem(list: Array<number>): Array<Elem> {
     }
     if (!dup) {
       let result = list[i];
-      if (result !== undefined ) {
+      if (result !== undefined) {
         counts.push({elem: result, count: 1});
       }
     }
