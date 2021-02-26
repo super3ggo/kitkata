@@ -1,5 +1,5 @@
 // Prompt: Given an array of integers, find the unique, i.e. non-duplicate,
-// elements.
+//         elements.
 
 //
 // Solution
@@ -8,11 +8,6 @@
 interface Elem {
   elem: number;
   count: number;
-}
-
-function isEqual(a: Elem, b: Elem): boolean {
-  return a.elem === b.elem
-    && a.count === b.count;
 }
 
 function findUniqueElem(list: Array<number>): Array<Elem> {
@@ -38,16 +33,21 @@ function findUniqueElem(list: Array<number>): Array<Elem> {
 }
 
 //
-// Test(s)
+// Util
 //
 
-function test(control: Array<Elem>, test: Array<Elem>, message: string): void {
+function isEqual(a: Elem, b: Elem): boolean {
+  return a.elem === b.elem
+    && a.count === b.count;
+}
+
+function equals(a: Array<Elem>, b: Array<Elem>): boolean {
   let result = false;
-  for (let i in control) {
-    let tmpControl = control[i];
-    let tmpTest    = test[i];
-    if (tmpControl !== undefined && tmpTest !== undefined) {
-      if (isEqual(tmpControl, tmpTest)) {
+  for (let i in a) {
+    let tmpA = a[i];
+    let tmpB = b[i];
+    if (tmpA !== undefined && tmpB !== undefined) {
+      if (isEqual(tmpA, tmpB)) {
         result = true;
       } else {
         result = false;
@@ -56,10 +56,28 @@ function test(control: Array<Elem>, test: Array<Elem>, message: string): void {
       result = false;
     }
   }
-  console.log(message + " -> " + result);
+  return result;
 }
+
+function test(control: Array<Elem>, wild: Array<Elem>): boolean {
+  return equals(control, wild);
+}
+
+function testPrint(result: boolean, testCase: string): void {
+  let message = testCase + ' -> ';
+  if (result) {
+    console.log(message + 'success');
+  } else {
+    console.log(message + 'failure');
+  }
+}
+
+//
+// Test(s)
+//
 
 // Test 00
 let control00 = [{elem: 2, count: 1}];
-let test00    = findUniqueElem([0,0,1,1,2,3,3,3]);
-test(control00, test00, "test 00");
+let wild00    = findUniqueElem([0,0,1,1,2,3,3,3]);
+let result00  = test(control00, wild00);
+testPrint(result00, 'test 00');

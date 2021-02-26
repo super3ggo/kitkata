@@ -19,7 +19,7 @@ function fizzBuzz(n: number): string {
 }
 
 //
-// Etc
+// Util
 //
 
 function equals(a: Array<string>, b: Array<string>): boolean {
@@ -55,11 +55,11 @@ function testPrint(result: boolean, testCase: string): void {
 }
 
 //
-// Tests
+// Test(s)
 //
 
 // Test 00
 let control00 = ['FizzBuzz','1','2','Fizz','4','Buzz','Fizz','7','8','Fizz'];
-let test00    = [0,1,2,3,4,5,6,7,8,9];
-let result00  = test(control00, test00);
+let wild00    = [0,1,2,3,4,5,6,7,8,9];
+let result00  = test(control00, wild00);
 testPrint(result00, 'test 00');
