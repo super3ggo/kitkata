@@ -41,7 +41,7 @@ function isEqual(a: Elem, b: Elem): boolean {
     && a.count === b.count;
 }
 
-function equals(a: Array<Elem>, b: Array<Elem>): boolean {
+function test(a: Array<Elem>, b: Array<Elem>): boolean {
   let result = false;
   for (let i in a) {
     let tmpA = a[i];
@@ -57,10 +57,6 @@ function equals(a: Array<Elem>, b: Array<Elem>): boolean {
     }
   }
   return result;
-}
-
-function test(control: Array<Elem>, wild: Array<Elem>): boolean {
-  return equals(control, wild);
 }
 
 function testPrint(result: boolean, testCase: string): void {

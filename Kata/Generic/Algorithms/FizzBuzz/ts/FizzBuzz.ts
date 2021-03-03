@@ -22,13 +22,13 @@ function fizzBuzz(n: number): string {
 // Util
 //
 
-function equals(a: Array<string>, b: Array<string>): boolean {
+function test(control: Array<string>, wild: Array<string>): boolean {
   let result = false;
-  for (let i in a) {
-    let tmpA = a[i];
-    let tmpB = b[i];
-    if (tmpA !== undefined && tmpB !== undefined) {
-      if (tmpA == tmpB) {
+  for (let i in control) {
+    let controlTmp = control[i];
+    let wildTmp    = wild[i];
+    if (controlTmp !== undefined && wildTmp !== undefined) {
+      if (controlTmp == wildTmp) {
         result = true;
       } else {
         result = false;
@@ -38,11 +38,6 @@ function equals(a: Array<string>, b: Array<string>): boolean {
     }
   }
   return result;
-}
-
-function test(control: Array<string>, wild: Array<number>): boolean {
-  let test = wild.map(fizzBuzz);
-  return equals(control, test);
 }
 
 function testPrint(result: boolean, testCase: string): void {
@@ -60,6 +55,6 @@ function testPrint(result: boolean, testCase: string): void {
 
 // Test 00
 let control00 = ['FizzBuzz','1','2','Fizz','4','Buzz','Fizz','7','8','Fizz'];
-let wild00    = [0,1,2,3,4,5,6,7,8,9];
+let wild00    = [0,1,2,3,4,5,6,7,8,9].map(fizzBuzz);
 let result00  = test(control00, wild00);
 testPrint(result00, 'test 00');
